@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+/*
+ * @Author: your name
+ * @Date: 2020-08-05 23:58:59
+ * @LastEditTime: 2020-08-12 00:07:55
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \my-app\src\index.js
+ */
+import React from "react";
+import ReactDOM from "react-dom";
+import TodoList from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoList />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
