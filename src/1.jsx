@@ -106,15 +106,6 @@ function ListOfTenthings() {
 //反之，如果真的想在 React 渲染 false、true、null、undefined 等值，需要先将它们转换为字符串
 <div>My JavaScript variable is {String(myVariable)}.</div>;
 
-// ?????????????????????
-// const LoginControl = () => {
-// 	render(){
-// 		return (
-
-// 		)
-// 	}
-// }
-
 //注意在函数组件中没有 this ，所以我们不能分配或读取 this.state。
 const LoginControl = () => {
   //这里方括号代表了 数组解构
